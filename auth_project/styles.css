@@ -1,0 +1,49 @@
+.mainEdit{
+  width: 80%;
+  margin: auto;
+}
+
+.editLabel, .saveBtn, .editInput{
+  width: 100%;
+  letter-spacing: 0.1em;
+}
+
+.editLabel{
+  margin-bottom: 0.5em;
+  text-transform: lowercase;
+}
+
+.saveBtn:focus{
+  outline: 0;
+}
+
+.enabledBtn{
+  pointer-events: auto;
+}
+
+.disabledBtn{
+  pointer-events: none;
+}
+
+.editGroup{
+  margin-bottom: 1em;
+}
+
+.editIcon{
+  display: inline;
+  margin-left: 0.5em;
+}
+
+.editInput{
+  background: rgba(0,0,0,0.3);
+  border: none;
+  border-bottom: thin solid rgba(255,255,255,0.1);
+  color: rgba(255,255,255,0.6);
+  padding-left: 0.5em;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+}
+
+.editInput:focus{
+  outline-color: rgba(255,255,255,0.8);
+}
