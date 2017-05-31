@@ -16,6 +16,7 @@
     "express-session": "^1.15.3",
     "foreman": "^2.0.0",
     "jade": "~1.11.0",
+    "mongoose": "^4.10.4",
     "morgan": "^1.8.2",
     "passport": "^0.3.2",
     "passport-local": "^1.0.0",
